@@ -1,0 +1,51 @@
+body {
+  background-color: #FFFFCC;
+}
+
+.App {
+  		text-align: center;
+  		min-height: 600px;
+	}
+
+.App-header {
+  background-image: url('images/header-background.jpg');
+  background-size: 100%;
+  background-color: #343a40;
+  color: #FFFFCC;
+  padding-bottom: 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.field {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #0000ff;
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+
+.field[readonly] {
+  color: #222;
+}
+
+.page-footer{
+       color:#FFF;
+       background-color: #343a40;
+       text-shadow: 2px 2px 2px #333; 
+       position:fixed;             
+       left: 0px;
+       bottom: 0px;
+       width: 100%;
+}
+
+.outer {
+  min-width: 300px;  
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
